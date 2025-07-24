@@ -84,5 +84,35 @@
         <td>セル６</td>
       </tr>
     </table>  
+
+    <form action="example.php" method="post" name="contact-form">
+      <!-- １行テキスト入力欄 -->
+      <input type="text" placeholder="名字 名前">
+
+      <!-- ラジオボタン -->
+      <input type="radio" name="gender" value="男">男
+      <input type="radio" name="gender" value="女" checked>女
+      <input type="radio" name="gender" value="その他">その他
+
+      <!-- チェックボックス -->
+      <input type="checkbox" name="color" value="赤" checked>赤
+      <input type="checkbox" name="color" value="青">青
+      <input type="checkbox" name="color" value="黄">黄
+
+      <!-- 送信ボタン -->
+      <input type="submit" value="送信する">
+
+      <!-- セレクトボックス -->
+      <select name="bloodtype">
+        <option value="A">A</option>
+        <option value="B">B</option>
+        <option value="O">O</option>
+        <option value="AB">AB</option>
+        <option value="不明">不明</option>
+      </select>
+
+      <!-- 複数ぎょうテキスト入力欄 -->
+      <textarea name="massage" placeholder="メッセージを入力">メッセージを入力</textarea>
+    </form>
   </body>
 </html>
