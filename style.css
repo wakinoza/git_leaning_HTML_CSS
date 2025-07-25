@@ -1,11 +1,16 @@
 @charset "UTF-8";
 
+html {
+  font-size: 100%;
+}
 body {
   background-color: #fffeee;
 }
 h1 {
   color: #0bd;
+  font-size: 2rem;
 }
+
 p {
   font-size: 20px;
 }
