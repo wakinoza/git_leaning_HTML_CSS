@@ -9,8 +9,13 @@ body {
 h1 {
   color: #0bd;
   font-size: 2rem;
+  font-family: serif;
+}
+h2 {
+  font-family: "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
 }
 
 p {
   font-size: 20px;
+  font-family: "ヒラギノ丸ゴ Pro w4", "Hiragino Maru Gothic Pro", sans-serif;
 }
